@@ -24,7 +24,7 @@ $(function() {
         if ($(this).scrollTop() > 50) {
             if (findBootstrapEnvironment() === "ExtraSmall" || findBootstrapEnvironment() === "Small" ) {
                 $('#toTop').fadeIn();
-            }
+            }+
             $('.navbar-fixed-top').addClass('navbar-shrink');
         } else {
             $('#toTop').fadeOut();
