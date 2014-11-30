@@ -229,7 +229,6 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    padding: 50px;
     max-width: 375px;
     -webkit-transition: all 0.4s ease; /* Safari and Chrome */
     -moz-transition: all 0.4s ease; /* Firefox */
