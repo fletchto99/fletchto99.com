@@ -50,6 +50,14 @@ $(function () {
     $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
+    $('.modal')
+        .on('shown', function () {
+            console.log('show');
+            $('body').css({overflow: 'hidden'});
+        })
+        .on('hidden', function () {
+            $('body').css({overflow: ''});
+        });
 });
 
 function findBootstrapEnvironment() {
