@@ -380,6 +380,10 @@ footer .footer-col {
     margin-right: -15px;
 }
 
+.portfolio-modal .modal-content p {
+    text-align: justify;
+}
+
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
@@ -436,4 +440,20 @@ footer .footer-col {
 
 body {
     -webkit-tap-highlight-color: transparent;
+}
+
+.item {
+    margin: 3px;
+    vertical-align: middle;
+    margin-bottom: -25px;
+}
+
+.slideshow .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slideshow {
+    margin-bottom: 20px;
 }

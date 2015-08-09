@@ -6,6 +6,14 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {
+
+    $(".slideshow").owlCarousel({
+        autoPlay: 7500,
+        singleItem: true,
+        stopOnHover: true,
+        transitionStyle: 'backSlide'
+    });
+
     var $viewport = $('body, html');
 
     $('.page-scroll a').bind('click', function () {
