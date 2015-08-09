@@ -153,6 +153,10 @@ header .intro-text .skills {
     }
 }
 
+.navbar-brand {
+    padding-top: 12px;
+}
+
 @media (min-width: 768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -169,11 +173,19 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding-top: 2px;
+        padding-bottom: 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        padding-top: 12px;
+        margin-top: 8px;
+    }
+
+    .navbar-shrink .navbar-nav > li > a {
+        padding: 12px 8px;
+        margin: 8px 7px;
     }
 }
 
@@ -367,7 +379,6 @@ footer .footer-col {
 }
 
 .portfolio-modal .modal-content {
-    padding-top: 50px;
     min-height: 100%;
     min-width: 100%;
     border: 0;
@@ -446,6 +457,9 @@ body {
     margin: 3px;
     vertical-align: middle;
     margin-bottom: -25px;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .slideshow .item img {
@@ -456,4 +470,45 @@ body {
 
 .slideshow {
     margin-bottom: 20px;
+}
+
+@-webkit-keyframes roll {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes roll {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.konami {
+    -moz-animation-name: roll;
+    -moz-animation-duration: 4s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: roll;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: 1;
+}
+
+.portfolio-item .h5 {
+    word-wrap: normal;
+
 }
