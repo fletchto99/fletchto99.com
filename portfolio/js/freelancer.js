@@ -1,11 +1,31 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-// jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {
+
+    var konamiState = 0;
+    var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+    var timeouts = [];
+
+    var konamiEvent = function(e) {
+        if (e.which == konamiCode[konamiState]) {
+            konamiState++;
+        } else {
+            konamiState = 0;
+        }
+        if (konamiState == konamiCode.length) {
+            timeouts.forEach(function(timeout) {
+                clearTimeout(timeout);
+            });
+            document.body.style.webkitAnimationName = '';
+            console.log('KONAMIIII!!!!');
+            konamiState = 0;
+            document.body.className = 'konami';
+            timeouts.push(setTimeout(function() {
+                document.body.className = '';
+                $(window).scrollTop($(window).scrollTop() + 1);
+            }, 4010));
+        }
+    };
+
+    document.addEventListener('keydown', konamiEvent);
 
     $(".slideshow").owlCarousel({
         autoPlay: 7500,
