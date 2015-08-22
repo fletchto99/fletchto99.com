@@ -1,8 +1,22 @@
 $(function () {
-
     var konamiState = 0;
     var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
     var timeouts = [];
+    var checkHash = function (location) {
+        if (!location) {
+            location = window.location;
+        }
+        var hash = location.hash.substr(1);
+        if (hash.length > 0) {
+            console.log(hash);
+            var elem = document.getElementById(hash);
+            if (elem !== null && elem.classList.contains('modal')) {
+                $('#' + hash).modal('show');
+            } else {
+                history.replaceState(null, null, '/');
+            }
+        }
+    };
 
     var konamiEvent = function(e) {
         if (e.which == konamiCode[konamiState]) {
@@ -56,7 +70,16 @@ $(function () {
         if ($(window).scrollTop() > 50 && (findBootstrapEnvironment() === "ExtraSmall" || findBootstrapEnvironment() === "Small")) {
             $('#toTop').fadeIn();
         }
+        history.back();
     });
+
+    $('.close-modal').on('click', function () {
+        if ($(window).scrollTop() > 50 && (findBootstrapEnvironment() === "ExtraSmall" || findBootstrapEnvironment() === "Small")) {
+            $('#toTop').fadeIn();
+        }
+        history.back();
+    });
+
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
@@ -78,14 +101,19 @@ $(function () {
     $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
-    $('.modal')
-        .on('shown', function () {
-            console.log('show');
-            $('body').css({overflow: 'hidden'});
-        })
-        .on('hidden', function () {
-            $('body').css({overflow: ''});
-        });
+
+    $('.modal').on('show.bs.modal', function () {
+        history.pushState(null, null, "#" + $(this).attr('id'));
+        document.body.style.overflow = 'hidden';
+    }).on('hide.bs.modal', function () {
+        document.body.style.overflow = '';
+    });
+    // If a pushstate has previously happened and the back button is clicked, hide any modals.
+    $(window).on('popstate', function (event) {
+        $(".modal").modal('hide');
+    });
+
+    checkHash();
 });
 
 function findBootstrapEnvironment() {
