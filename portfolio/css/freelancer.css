@@ -153,6 +153,14 @@ header .intro-text .skills {
     }
 }
 
+.navbar-header a:focus {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #FF7E09;
+}
+
 .navbar-brand {
     padding-top: 12px;
 }

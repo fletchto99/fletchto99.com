@@ -5399,8 +5399,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     color: #ffffff;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover {
     color: #FF7E09;
     background-color: transparent;
 }
@@ -5415,7 +5414,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #FF7E09;
+    color: white;
     background-color: transparent;
 }
 
