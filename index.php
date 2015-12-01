@@ -329,12 +329,12 @@
                         <div style="text-align:left">
                             <ul>
                                 <li>
-                                    Created, Maintained and Tested various web applications and websites
+                                    Create, maintain and test various web applications and websites
                                     <ul>
                                         <li>
-                                            <a target="_blank" href="https://tickets.torontozoo.com/">StreamInTickets</a>: Developer of
+                                            <a target="_blank" href="https://tickets.torontozoo.com/">StreamInTickets</a>: Assistant developer of
                                             the online ticket sales system for the Toronto Zoo and the Art Gallery of
-                                            Ontario, which pulls in tens of millions of dollars yearly
+                                            Ontario, which pulls in tens of millions of dollars annually
                                         </li>
                                         <li>
                                             <a target="_blank" href="http://parkadmin.com">Parkadmin</a>: Assistant developer of the
@@ -343,11 +343,11 @@
                                         </li>
                                         <li>
                                             <a target="_blank" href="https://olportal.ontariolearn.com/login.nphp">Ontario Learn</a>:
-                                            Assisted in the development and reskin of the grading and report system used
+                                            Assistant developer on the development and reskin of the grading and report system used
                                             by colleges across Ontario
                                         </li>
                                         <li>
-                                            <a target="_blank" href="http://cwgi.ca">CWGI: </a> Lead developer of the CWGI website
+                                            <a target="_blank" href="http://cwgi.ca">CWGI: </a> Lead developer of the Canadian Women Golfers Inc. (CWGI) website
                                         </li>
                                     </ul>
                                 </li>
@@ -388,17 +388,22 @@
                         </div>
 
                         <p>
-                            Developer for the web application, MaMa, which manages evidence records for the teachers
-                            of the Ottawa Carleton District Schoolboard. In the first year of operations the
-                            system has had over 2 million evidence records entered!
+                            Developer for MaMa, a web application which manages student evidence records
+                            for secondary students at the Ottawa-Carleton District School Board. In
+                            the first year of implementation, the system had over 2 million evidence
+                            records entered with over 80% adoption of the application by the teachers!
                         </p>
                         <p>
-                            With this application teachers are able to enter evidence and comment for assessments preformed within the classroom.
-                            It essentially replaces the need to record marks in a spreadsheet or on a piece of paper and allows
-                            teacher to conveniently have everything in one place.
+                            With this application teachers are able to maintain evidence records and
+                            comments for tests and assignments completed by the students in their
+                            classes. It essentially replaces the need to record marks in a spreadsheet
+                            or on a piece of paper and allows teacher to conveniently have the evidence
+                            records available anytime, anywhere. Teachers are also able to use this tool
+                            to email students a copy of their individual evidence record.
                         </p>
                         <p>
-                            The client side portion of this application is written in Javascript while the backend was written in PHP using MSSQL ad the database driver.
+                            The client side of this application is written in Javascript with the
+                            server side written in PHP and data stored in a MSSQL database.
                         </p>
                         <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal"><i
                                 class="fa fa-times"></i> Close
@@ -436,9 +441,9 @@
 
                         <p style="text-align:left">
                             I am an active community developer for the <a href="http://getpebble.com">Pebble Smartwatch</a>
-                            platform. As an enthusiast for the platform I have created multiple app, added to
-                            documentation, created developer libraries andhave contributed quite a bit
-                            to some of their open source libraries. Here's a few examples of my works:
+                            platform. As an enthusiast for the platform I have created multiple apps, added to documentation,
+                            created developer libraries and have contributed to the open source libraries.
+                            Here's a few examples of my works:
                         </p>
                         <div style="text-align:left">
                             <ul>
@@ -451,12 +456,12 @@
                                         </li>
                                         <li>
                                             <a target="_blank" href="http://apps.getpebble.com/en_US/application/556bbaf730850a5fab000089">Devboard</a>: Enables
-                                            Pebble developers to check the status of their Pebble projects directly from their watch. Including # of installs, date published,
+                                            Pebble developers to check the status of their Pebble projects directly from their watch. Including number of installs, date published,
                                             features enabled, etc.
                                         </li>
                                         <li>
                                             <a target="_blank" href="http://apps.getpebble.com/en_US/application/5468365c32e2d70d26000095">uCardManager</a>:
-                                            Allows students at the University of Ottawa to view their remaining studentcard and mealplan balances.
+                                            Allows students at the University of Ottawa to view their remaining student card and mealplan balances.
                                         </li>
                                     </ul>
                                 </li>
@@ -471,9 +476,14 @@
                                             is available <a href="https://github.com/fletchto99/PHPebbleTimeline">here</a>.
                                         </li>
                                         <li>
+                                            <a target="_blank" href="https://github.com/fletchto99/pebble-remind">Pebble Remind</a>: Enables developers to have their app
+                                            to send a single reminder to the user, reminding them to give the app a heart. This was created as a request from a fellow
+                                            developer at the <a target="_blank" href="https://developer.getpebble.com/community/events/developer-retreat-2015/">Pebble Developer Retreat 2015</a>
+                                        </li>
+                                        <li>
                                             <a target="_blank" href="https://github.com/pebble/pebblejs">PebbleJS</a>: Contributor for the
                                             open source PebbleJS library, allowing users to create an app for the Pebble platform using
-                                            Javascript. As a contributor I have work quite a bit on the menu items.
+                                            Javascript. As a contributor I have worked quite a bit on the menu items and color integration.
                                         </li>
                                         <li>
                                             <a target="_blank" href="https://github.com/pebble/slate">Slate</a>: Contributed to the open source Slate library
@@ -521,11 +531,11 @@
                         <p>
                             My Pebble app
                             <a target="_blank" href="https://apps.getpebble.com/applications/5539d8fdbf1a59d7ac000053">Meetup</a>
-                            won week 6 of the TimelineChallenge for
+                            won week 6 of the #TimelineChallenge for
                             being one of the best apps to integrate with the new timeline feature on the Pebble
-                            Time. The app allows users to look for events in the area
-                            and then pin them to the watch's timeline so that the user doesn't forget about the event.
-                            Since it's release Meetup has had over 850 downloads!
+                            Time. The app allows users to look for Meetup events in their area
+                            and then pin them to the watch's timeline to remind them about the event.
+                            Since it's release Meetup has had over 1000 downloads!
                             Be sure to check out this awesome
                             <a target="_blank" href="http://developer.getpebble.com/blog/2015/06/12/timeline-challenge-week-six/">
                                 #timelinechallenge
@@ -598,9 +608,9 @@
                         <img src="portfolio/img/portfolio/kdcloth.png" class="img-responsive img-centered" alt="">
 
                         <p>
-                            I am the computer consultant for <a target="_blank" href="http://www.kdcloth.com/">KD Cloth</a>. I have set their
+                            Computer consultant for <a target="_blank" href="http://www.kdcloth.com/">KD Cloth</a>. Set up their
                             business up on Microsoft's cloud storage solution, OneDrive, so that they are able to synchronize all of their important
-                            documents instantaneously to all of their computers. I have also helped speed up their computers and set them up so that
+                            documents instantaneously to all of their computers. I have also helped maintain their computers and set them up so that
                             all of the computers are ready to go out of the box.
                         </p>
                         <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
@@ -636,7 +646,7 @@
                         </div>
 
                         <p>
-                            During my time as a highschool student at Notre Dame Catholic Highschool in Carleton Place, Ontario
+                            During my time as a highschool student at Notre Dame Catholic High school in Carleton Place, Ontario
                             I designed the pages for their <a target="_blank" href="http://www.notredame.cdsbeo.on.ca/">website</a>.
                             The goal of this project was to create a page which parents can view to easily be informed of all
                             activities going on within the school. Check it out at:
@@ -675,7 +685,7 @@
                             <div class="item"><img src="portfolio/img/screenshots/uottawa/3.png"></div>
                         </div>
 
-                        <p>Enrolled in a BCS with a specialization in computer science with a minor in business.</p>
+                        <p>Enrolled in a BCS with a specialization in computer science.</p>
                         <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
                             <i class="fa fa-times"></i> Close
                         </button>
