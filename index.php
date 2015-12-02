@@ -214,19 +214,16 @@
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
                 <p>
-                    I was born and raised in Ottawa, Ontario. Since a young age I've been using computers. During my
-                    highschool
-                    career I have created various projects, to expand my knowledge of programming concepts. Check out
-                    this <a class="darker" target="_blank" href="/other/sites/index.html">index</a> of some of the <b>old</b>
+                    I was born and raised in Ottawa, Ontario. I have been using computers since a very young age. While in
+                    high school, I created various projects to expand my knowledge of programming concepts. Check out
+                    this <a class="darker" target="_blank" href="/other/sites/index.html">index</a> of some of the <b><i>old</i></b>
                     projects I have worked on in my free time.
                 </p>
             </div>
             <div class="col-lg-4">
                 <p>
-                    I'm currently enrolled in a Bachelor of Computer Science at the University of Ottawa with a minor in
-                    Business. So far I love developing and eventually will pursue a career in the computer science field
-                    and hopefully be able to open up my own security
-                    research firm.
+                    I am currently enrolled in a Bachelor of Computer Science program at the University of Ottawa.
+                    I enjoy software development and plan on pursuing a career in the computer science field specializing in security.
                 </p>
             </div>
         </div>
@@ -244,7 +241,7 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3 text-center">
-                <p>Interested in my work? Let me know! Contact me and I'll do my best to get back you you
+                <p>Interested in my work? Let me know! Contact me and I'll do my best to get back to you
                     within 48 hours. Resume available upon request.</p>
             </div>
         </div>
