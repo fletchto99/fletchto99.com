@@ -8,7 +8,6 @@ $(function () {
         }
         var hash = location.hash.substr(1);
         if (hash.length > 0) {
-            console.log(hash);
             var elem = document.getElementById(hash);
             if (elem !== null && elem.classList.contains('modal')) {
                 $('#' + hash).modal('show');
@@ -45,7 +44,7 @@ $(function () {
         autoPlay: 7500,
         singleItem: true,
         stopOnHover: true,
-        transitionStyle: 'backSlide'
+        lazyLoad: true
     });
 
     var $viewport = $('body, html');

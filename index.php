@@ -108,18 +108,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3 portfolio-item">
-                <h5>Tomahawk</h5>
-                <a href="#tomahawk" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="portfolio/img/portfolio/tomahawk.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-3 portfolio-item">
+            <div class="col-sm-4 portfolio-item">
                 <h5>OCDSB</h5>
                 <a href="#mama" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -130,42 +119,18 @@
                     <img src="portfolio/img/portfolio/mama.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-sm-3 portfolio-item">
-                <h5>Pebble</h5>
-                <a href="#pebble" class="portfolio-link" data-toggle="modal">
+            <div class="col-sm-4 portfolio-item">
+                <h5>Tomahawk</h5>
+                <a href="#tomahawk" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="portfolio/img/portfolio/pebble.png" class="img-responsive" alt="">
+                    <img src="portfolio/img/portfolio/tomahawk.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-sm-3 portfolio-item">
-                <h5>Pebble Meetup</h5>
-                <a href="#meetup" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="portfolio/img/portfolio/meetup.png" class="img-responsive" alt="">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 portfolio-item">
-                <h5>Code 4 Gaming</h5>
-                <a href="#codefour" class="portfolio-link" data-toggle="modal">
-                    <div class="caption">
-                        <div class="caption-content">
-                            <i class="fa fa-search-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="portfolio/img/portfolio/codefour.png" class="img-responsive" alt="">
-                </a>
-            </div>
-            <div class="col-sm-3 portfolio-item">
+            <div class="col-sm-4 portfolio-item">
                 <h5>KDCloth</h5>
                 <a href="#kdcloth" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -176,7 +141,56 @@
                     <img src="portfolio/img/portfolio/kdcloth.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-sm-3 portfolio-item">
+
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <h5>Pebble</h5>
+                <a href="#pebble" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="portfolio/img/portfolio/pebble.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <h5>Pebble Meetup</h5>
+                <a href="#meetup" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="portfolio/img/portfolio/meetup.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <h5>MonsterCraft</h5>
+                <a href="#monstercraft" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="portfolio/img/portfolio/monstercraft.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <h5>Code 4 Gaming</h5>
+                <a href="#codefour" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="portfolio/img/portfolio/codefour.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
                 <h5>Highschool</h5>
                 <a href="#notredame" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -187,7 +201,7 @@
                     <img src="portfolio/img/portfolio/ND.png" class="img-responsive" alt="">
                 </a>
             </div>
-            <div class="col-sm-3 portfolio-item">
+            <div class="col-sm-4 portfolio-item">
                 <h5>University</h5>
                 <a href="#uottawa" class="portfolio-link" data-toggle="modal">
                     <div class="caption">
@@ -306,6 +320,65 @@
 
 <!-- portfolio Modals -->
 
+<div class="portfolio-modal modal fade" id="mama" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="close-modal hidden-sm hidden-xs" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h3>Web Developer: OCDSB</h3>
+
+                        <h3>2015-Present</h3>
+                        <hr class="divider-primary">
+
+                        <div class="slideshow">
+                            <div class="item"><img class="lazyOwl" data-src="portfolio/img/portfolio/mama.png"></div>
+                            <div class="item"><img class="lazyOwl" data-src="portfolio/img/screenshots/mama/1.png">
+                            </div>
+                            <div class="item"><img class="lazyOwl" data-src="portfolio/img/screenshots/mama/2.png">
+                            </div>
+                            <div class="item"><img class="lazyOwl" data-src="portfolio/img/screenshots/mama/3.png">
+                            </div>
+                            <div class="item"><img class="lazyOwl" data-src="portfolio/img/screenshots/mama/4.png">
+                            </div>
+                        </div>
+
+                        <p>
+                            Developer for MaMa, a web application which manages student evidence records
+                            for secondary students at the Ottawa-Carleton District School Board. In
+                            the first year of implementation, the system had over 2 million evidence
+                            records entered with over 80% adoption of the application by the teachers!
+                        </p>
+
+                        <p>
+                            With this application teachers are able to maintain evidence records and
+                            comments for tests and assignments completed by the students in their
+                            classes. It essentially replaces the need to record marks in a spreadsheet
+                            or on a piece of paper and allows teacher to conveniently have the evidence
+                            records available anytime, anywhere. Teachers are also able to use this tool
+                            to email students a copy of their individual evidence record.
+                        </p>
+
+                        <p>
+                            The client side of this application is written in Javascript with the
+                            server side written in PHP and data stored in a MSSQL database.
+                        </p>
+                        <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal"><i
+                                class="fa fa-times"></i> Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="portfolio-modal modal fade" id="tomahawk" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="container">
@@ -324,10 +397,10 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/tomahawk.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/tomahawk/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/tomahawk/2.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/tomahawk/3.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/tomahawk.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/tomahawk/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/tomahawk/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/tomahawk/3.png"></div>
                         </div>
 
                         <div style="text-align:left">
@@ -373,7 +446,7 @@
     </div>
 </div>
 
-<div class="portfolio-modal modal fade" id="mama" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="kdcloth" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="container">
             <div class="close-modal hidden-sm hidden-xs" data-dismiss="modal">
@@ -385,41 +458,23 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
-                        <h3>Web Developer: OCDSB</h3>
+                        <h3>Computer Consultant: KD Cloth</h3>
 
-                        <h3>2015-Present</h3>
+                        <h3>2010-Present</h3>
                         <hr class="divider-primary">
-
-                        <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/mama.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/mama/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/mama/2.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/mama/3.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/mama/4.png"></div>
-                        </div>
+                        <img src="portfolio/img/portfolio/kdcloth.png" class="img-responsive img-centered" alt="">
 
                         <p>
-                            Developer for MaMa, a web application which manages student evidence records
-                            for secondary students at the Ottawa-Carleton District School Board. In
-                            the first year of implementation, the system had over 2 million evidence
-                            records entered with over 80% adoption of the application by the teachers!
+                            Computer consultant for <a target="_blank" href="http://www.kdcloth.com/">KD Cloth</a>. Set
+                            up their
+                            business up on Microsoft's cloud storage solution, OneDrive, so that they are able to
+                            synchronize all of their important
+                            documents instantaneously to all of their computers. I have also helped maintain their
+                            computers and set them up so that
+                            all of the computers are ready to go out of the box.
                         </p>
-
-                        <p>
-                            With this application teachers are able to maintain evidence records and
-                            comments for tests and assignments completed by the students in their
-                            classes. It essentially replaces the need to record marks in a spreadsheet
-                            or on a piece of paper and allows teacher to conveniently have the evidence
-                            records available anytime, anywhere. Teachers are also able to use this tool
-                            to email students a copy of their individual evidence record.
-                        </p>
-
-                        <p>
-                            The client side of this application is written in Javascript with the
-                            server side written in PHP and data stored in a MSSQL database.
-                        </p>
-                        <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal"><i
-                                class="fa fa-times"></i> Close
+                        <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
+                            <i class="fa fa-times"></i> Close
                         </button>
                     </div>
                 </div>
@@ -427,7 +482,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="portfolio-modal modal fade" id="pebble" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -447,10 +501,10 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/pebble.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/pebble/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/pebble/2.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/pebble/3.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/pebble.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/pebble/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/pebble/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/pebble/3.png"></div>
                         </div>
 
                         <p style="text-align:left">
@@ -561,9 +615,9 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/meetup.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/meetup/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/meetup/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/meetup.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/meetup/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/meetup/2.png"></div>
                         </div>
 
                         <p>
@@ -592,6 +646,64 @@
     </div>
 </div>
 
+<div class="portfolio-modal modal fade" id="monstercraft" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="close-modal hidden-sm hidden-xs" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h3>Monstercraft Plugin Developer</h3>
+
+                        <h3>2010-2013</h3>
+                        <hr class="divider-primary">
+
+                        <img src="portfolio/img/portfolio/monstercraft.png" class="img-responsive img-centered" alt="">
+
+                        <p style="text-align:left">
+                            I was the lead developer for a minecraft server known as Monstercrasft (which shutdown in 2013).
+                            While developing for the platform I created various plugins, some which were specific to the server and others
+                            which were public for other servers to use. For a full list of plugins I have developed please see the
+                            <a href="http://github.com/monstercraft">Monstercraft Github Organization<a/>.
+                            Here are a few examples of my largest plugins:
+                        </p>
+
+                        <div style="text-align:left">
+                            <ul>
+                                <li>
+                                    Some of my larger plugins:
+                                    <ul>
+                                        <li>
+                                            <a href="http://dev.bukkit.org/bukkit-plugins/monsterirc/">MonsterIRC</a>:
+                                            An advanced plugin which enables game chat from within minecraft to be sent to IRC and vise versa. This is the largest
+                                            minecraft plugin I have developed, which had over 16,000 downloads. It was highly configurable to suit many servers needs
+                                            and was made to integrate well with numerous other chat plugins. This plugin also had an API feature where it could load in scripts
+                                            made by other developers which could act upon messages, for example a spam hammer or auto response bot. I created some examples <a href="https://github.com/Monstercraft/SimplePlugins">here</a>.
+                                        </li>
+                                        <li>
+                                            <a href="http://dev.bukkit.org/bukkit-plugins/monstertickets/">Monster Tickets</a>:
+                                            A support ticket system which integrated directly into the in game chat. Players who join a server could create a support ticket in which a moderator could reply.
+                                            It also had other features such as teleporting to the player who was having the issue. Check it out in action here: https://www.youtube.com/watch?v=E3yiv9PWVlU
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal"><i
+                                class="fa fa-times"></i> Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="portfolio-modal modal fade" id="codefour" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="container">
@@ -610,9 +722,9 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/codefour.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/codefour/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/codefour/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/codefour.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/codefour/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/codefour/2.png"></div>
                         </div>
 
                         <p>
@@ -621,43 +733,6 @@
                             community forum. Code 4 is a massive online community for the game Arma 3, with thousands of
                             players visiting their
                             website and servers daily. This website is in the process of becoming mobile friendly.
-                        </p>
-                        <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
-                            <i class="fa fa-times"></i> Close
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="kdcloth" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-        <div class="container">
-            <div class="close-modal hidden-sm hidden-xs" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <h3>Computer Consultant: KD Cloth</h3>
-
-                        <h3>2010-Present</h3>
-                        <hr class="divider-primary">
-                        <img src="portfolio/img/portfolio/kdcloth.png" class="img-responsive img-centered" alt="">
-
-                        <p>
-                            Computer consultant for <a target="_blank" href="http://www.kdcloth.com/">KD Cloth</a>. Set
-                            up their
-                            business up on Microsoft's cloud storage solution, OneDrive, so that they are able to
-                            synchronize all of their important
-                            documents instantaneously to all of their computers. I have also helped maintain their
-                            computers and set them up so that
-                            all of the computers are ready to go out of the box.
                         </p>
                         <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
                             <i class="fa fa-times"></i> Close
@@ -687,9 +762,9 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/ND.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/ndchs/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/ndchs/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/ND.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/ndchs/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/ndchs/2.png"></div>
                         </div>
 
                         <p>
@@ -756,13 +831,18 @@
                         <hr class="divider-primary">
 
                         <div class="slideshow">
-                            <div class="item"><img src="portfolio/img/portfolio/uOttawa.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/uottawa/1.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/uottawa/2.png"></div>
-                            <div class="item"><img src="portfolio/img/screenshots/uottawa/3.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/portfolio/uOttawa.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/uottawa/1.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/uottawa/2.png"></div>
+                            <div class="item"><img class="lazyOwl"  data-src="portfolio/img/screenshots/uottawa/3.png"></div>
                         </div>
 
-                        <p>Enrolled in a BCS with a specialization in computer science.</p>
+                        <p>Currently enrolled in a BCS with a specialization in computer science.</p>
+                        <p>During my time in University so far I have created some pretty interesting projects. In my first year I created a
+                            <a href="https://github.com/fletchto99/ITI1121/tree/master/Assignments/Assignment%201">genetic algorithm</a> to
+                           solve the n-queens problem. It was able to place 5000 queens on a 5000 by 5000 chess board in just over a dat (on a 4.5GHz processor).
+                           In my second year I created a <a href="https://github.com/fletchto99/SEG2105-Final">tournament organization web app</a>.
+                           A demo can be seen <a href="https://fletchto99.com/other/sites/school/seg2105/keeper/#welcome/">here</a>.</p>
                         <button type="button" class="btn btn-default close-portfolio-item" data-dismiss="modal">
                             <i class="fa fa-times"></i> Close
                         </button>
@@ -776,4 +856,3 @@
 </body>
 
 </html>
-

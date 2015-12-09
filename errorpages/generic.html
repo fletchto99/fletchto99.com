@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <style type="text/css">
+        body {
+            background: #383838;
+            margin: 0;
+        }
+
+        main {
+            position: absolute;
+            top: 50%;
+            background-color: #222222;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Avenir, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+
+            background-color: #AA2222;
+            color: white;
+            padding: 10px;
+            margin: 10px 0 10px 0;
+        }
+
+        #code {
+            font-family: Avenir, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+            text-align: center;
+            position: absolute;
+            color: white;
+            font-size: calc(50vh - 67px);
+
+            top: 0;
+            left: 50%;
+
+            transform: translateX(-50%);
+        }
+
+        p {
+            font-family: Calibri, HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: white;
+            margin: 0 0 10px 0;
+        }
+
+        button {
+            margin: 0 0 10px 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<span id="code">Error</span>
+<main>
+    <h1>That's an error</h1>
+
+    <p>The page that you were looking for has an error</p>
+</main>
+<script type="text/javascript">
+    var text = document.getElementById('code'),
+            body = document.body,
+            steps = 7;
+
+    function threeDeeEvent(e) {
+        makeTextThreeDee(e.clientX, e.clientY)
+    }
+
+    function makeTextThreeDee(clientX, clientY) {
+        var x = Math.round(steps / (window.innerWidth / 2) * (window.innerWidth / 2 - clientX)),
+                y = Math.round(steps / (window.innerHeight / 2) * (window.innerHeight / 2 - clientY)),
+                shadow = '',
+                color = 190,
+                i;
+
+        for (i = 0; i < steps; i++) {
+            var tx = Math.round(x / steps * i);
+            var ty = Math.round(y / steps * i);
+            if (tx || ty) {
+                color -= 3 * i;
+                shadow += tx + 'px ' + ty + 'px 0 rgb(' + color + ', ' + color + ', ' + color + '), ';
+            }
+        }
+
+        shadow += x + 'px ' + y + 'px 1px rgba(0,0,0,.2), ' + x * 2 + 'px ' + y * 2 + 'px 6px rgba(0,0,0,.3)';
+
+        text.style.textShadow = shadow;
+        text.style.webkitTransform = 'translateX(-50%) rotateX(' + y * 2 + 'deg) rotateY(' + -x * 2 + 'deg)';
+        text.style.MozTransform = 'translateX(-50%) rotateX(' + y * 2 + 'deg) rotateY(' + -x * 2 + 'deg)';
+    }
+
+    document.addEventListener('mousemove', threeDeeEvent, false);
+    makeTextThreeDee(0, 0);
+</script>
+</body>
+</html>
