@@ -688,7 +688,7 @@
                                         <li>
                                             <a href="http://dev.bukkit.org/bukkit-plugins/monstertickets/">Monster Tickets</a>:
                                             A support ticket system which integrated directly into the in game chat. Players who join a server could create a support ticket in which a moderator could reply.
-                                            It also had other features such as teleporting to the player who was having the issue. Check it out in action here: https://www.youtube.com/watch?v=E3yiv9PWVlU
+                                            It also had other features such as teleporting to the player who was having the issue. Check it out in action on <a href="https://www.youtube.com/watch?v=E3yiv9PWVlU">Youtube</a>.
                                         </li>
                                     </ul>
                                 </li>
