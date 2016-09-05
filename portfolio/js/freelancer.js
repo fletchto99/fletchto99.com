@@ -1,7 +1,7 @@
 $(function () {
     var konamiState = 0;
     var konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-    var timeouts = [];
+
     var checkHash = function (location) {
         if (!location) {
             location = window.location;
